@@ -1,0 +1,65 @@
+body {
+    background-color: darkcyan;
+}
+
+.foto{
+ width: 400px;
+}
+
+#principal{
+     font-size: 3em;
+     color: brown;
+}
+
+.titulos{
+    font-size: 3em;
+    color: chartreuse;
+}
+
+.tituloss{
+    font-size: 40px;
+    color: darkslateblue;
+}
+
+.parr{
+    font-size: 30px;
+    color: black;
+}
+
+#tit{
+    
+    width: 65vw;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 2em;
+    border-radius: 10%;
+    transition: 2s;
+}
+.card:hover{
+    background-color: aquamarine;
+}
+
+#cards-container{
+width: 85%;
+margin: auto;
+margin-top: 1.5em;
+border: 2px solid black;
+border-radius: 2%;
+padding: 2em;
+display: flex;
+justify-content: space-evenly;
+}
+
+.card1{
+    border: 2px solid black;
+    width: 300px;
+    padding: 2em;
+    border-radius: 10%;
+    }

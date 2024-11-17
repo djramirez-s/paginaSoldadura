@@ -1,0 +1,56 @@
+/* reset.css */
+
+/* Reseteo de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico para html y body */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Formulario */
+input, textarea, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Líneas horizontales */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
